@@ -1,0 +1,16 @@
+{
+  "name": "roadrage.io",
+  "version": "1.0.0",
+  "description": "the legendary road rage, as an io game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "coolpeepz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "planck-js": "^0.1.44",
+    "socket.io": "^2.1.0"
+  }
+}
