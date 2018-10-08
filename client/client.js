@@ -63,6 +63,8 @@ socket.on('rip', () => {
 });
 
 function spawn() {
+    if (!loaded)
+        return;
     for (let i in inputMap) {
         inputMap[i] = 0;
         socket.emit('spawn');
